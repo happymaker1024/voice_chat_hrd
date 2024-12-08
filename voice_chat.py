@@ -15,7 +15,7 @@ import base64
 from audiorecorder import audiorecorder
 
 # Open AI API 키 설정하기
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
 # streamlit에 배포할때 아래 코드 주석처리
 # # 기존 환경변수 제거
@@ -25,7 +25,7 @@ from dotenv import load_dotenv
 # # .env 파일 로드
 # load_dotenv(override=True)  # override=True로 설정
 
-# OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 # print(OPENAI_API_KEY)
 
 client = openai.OpenAI(api_key=OPENAI_API_KEY)
