@@ -25,7 +25,7 @@ from dotenv import load_dotenv
 # # .env 파일 로드
 # load_dotenv(override=True)  # override=True로 설정
 
-OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+# OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 # print(OPENAI_API_KEY)
 
 client = openai.OpenAI(api_key=OPENAI_API_KEY)
